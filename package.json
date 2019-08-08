@@ -25,9 +25,25 @@
     "test": "jest"
   },
   "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json",
+      "jsx",
+      "node"
+    ],
+    "moduleNameMapper": {
+      "^@src/(.*)$": "<rootDir>/src/$1",
+      "^@test/(.*)$": "<rootDir>/test/$1"
+    },
     "resetMocks": true,
     "restoreMocks": true,
-    "testRunner": "jest-circus/runner"
+    "setupFilesAfterEnv": [],
+    "testRunner": "jest-circus/runner",
+    "transform": {
+      "\\.tsx?": "ts-jest"
+    }
   },
   "dependencies": {},
   "devDependencies": {
@@ -35,6 +51,7 @@
     "@types/node": "^12.7.1",
     "jest": "^24.8.0",
     "jest-circus": "^24.8.0",
+    "ts-jest": "^24.0.2",
     "typescript": "^3.5.3"
   }
 }
