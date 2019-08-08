@@ -15,8 +15,21 @@
   },
   "license": "ISC",
   "author": "Gareth Jones",
-  "directories": {},
-  "scripts": {},
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "resetMocks": true,
+    "restoreMocks": true,
+    "testRunner": "jest-circus/runner"
+  },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/jest": "^24.0.17",
+    "jest": "^24.8.0",
+    "jest-circus": "^24.8.0"
+  }
 }
