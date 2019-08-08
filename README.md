@@ -1,6 +1,9 @@
 # babel-plugin-replace-ts-export-assignment
 
-This does magical things.
+Allows [export assignment](https://www.typescriptlang.org/docs/handbook/modules.html#export--and-import--require) syntax to be used 
+when compiling TypeScript with `@babel/preset-typescript`.
+
+This works by simply replacing `export =` with `module.exports`, to keep CJS semantics.
 
 #### Linting
 
