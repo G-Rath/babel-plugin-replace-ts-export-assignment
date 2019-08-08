@@ -1,0 +1,22 @@
+{
+  "name": "babel-plugin-replace-ts-export-assignment",
+  "version": "0.0.0",
+  "description": "This does magical things.",
+  "keywords": [
+    "Babel"
+  ],
+  "homepage": "https://github.com/G-Rath/babel-plugin-replace-ts-export-assignment#readme",
+  "bugs": {
+    "url": "https://github.com/G-Rath/babel-plugin-replace-ts-export-assignment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G-Rath/babel-plugin-replace-ts-export-assignment.git"
+  },
+  "license": "ISC",
+  "author": "Gareth Jones",
+  "directories": {},
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}
