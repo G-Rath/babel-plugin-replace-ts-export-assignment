@@ -9,3 +9,19 @@ To run `jest` on the project, run:
 ```
 npm run test
 ```
+
+#### Checking
+
+To check that the project is type safe, run:
+
+```
+npm run check
+```
+
+#### Building
+
+To compile the project using `TypeScript`, run:
+
+```
+npm run build
+```

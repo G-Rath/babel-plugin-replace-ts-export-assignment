@@ -13,3 +13,5 @@ yarn-error.log*
 lib/
 coverage/
 node_modules/
+
+tsconfig.build.tsbuildinfo

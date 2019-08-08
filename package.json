@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "This does magical things.",
   "keywords": [
-    "Babel"
+    "Babel",
+    "TypeScript"
   ],
   "homepage": "https://github.com/G-Rath/babel-plugin-replace-ts-export-assignment#readme",
   "bugs": {
@@ -19,6 +20,8 @@
     "test": "test"
   },
   "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "check": "tsc -p tsconfig.build.json --noEmit",
     "test": "jest"
   },
   "jest": {
@@ -29,7 +32,9 @@
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^24.0.17",
+    "@types/node": "^12.7.1",
     "jest": "^24.8.0",
-    "jest-circus": "^24.8.0"
+    "jest-circus": "^24.8.0",
+    "typescript": "^3.5.3"
   }
 }

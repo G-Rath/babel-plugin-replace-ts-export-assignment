@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "rootDir": "./",
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": [ "./src/*" ],
+      "@test/*": [ "./test/*" ]
+    },
+    "allowJs": false,
+    "strict": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "suppressImplicitAnyIndexErrors": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "noEmitOnError": true,
+    "incremental": true,
+    "pretty": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "newLine": "LF",
+    "plugins": [ ],
+    "typeRoots": [
+      "node_modules/@types",
+      "types"
+    ]
+  },
+  "exclude": [ "node_modules" ]
+}
