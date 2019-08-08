@@ -1,0 +1,35 @@
+{
+  "parserOptions": {
+    "project": "tsconfig.json"
+  },
+  "plugins": [
+    "eslint-plugin-jest"
+  ],
+  "extends": [
+    "plugin:eslint-plugin-jest/recommended",
+    "plugin:eslint-plugin-jest/style"
+  ],
+  "rules": {
+    "jest/expect-expect": [
+      "error", {
+        "assertFunctionNames": [
+          "expect"
+        ]
+      }
+    ],
+    "jest/lowercase-name": [
+      "warn", {
+        "ignore": [ "describe" ]
+      }
+    ],
+    "jest/no-test-callback": "error",
+    "jest/no-test-return-statement": "warn",
+    "jest/no-truthy-falsy": "error",
+    "jest/no-empty-title": "error",
+    "jest/prefer-called-with": "warn",
+    "jest/prefer-spy-on": "warn",
+    "jest/prefer-todo": "warn",
+    "jest/require-tothrow-message": "warn",
+    "no-shadow": "off"
+  }
+}

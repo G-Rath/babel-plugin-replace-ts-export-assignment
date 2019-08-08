@@ -2,6 +2,14 @@
 
 This does magical things.
 
+#### Linting
+
+To run `eslint` on the project, run:
+
+```
+npm run lint
+```
+
 #### Testing
 
 To run `jest` on the project, run:
