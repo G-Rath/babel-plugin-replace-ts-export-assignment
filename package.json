@@ -39,7 +39,9 @@
     },
     "resetMocks": true,
     "restoreMocks": true,
-    "setupFilesAfterEnv": [],
+    "setupFilesAfterEnv": [
+      "./test/setupExpectEachTestHasAssertions.ts"
+    ],
     "testRunner": "jest-circus/runner",
     "transform": {
       "\\.tsx?": "ts-jest"
