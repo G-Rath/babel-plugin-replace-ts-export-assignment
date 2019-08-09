@@ -28,7 +28,8 @@
     "lint": "npm run lint:all --silent",
     "lint:all": "eslint \"**/*.{t,j}s\"",
     "lint:staged": "lint-staged",
-    "test": "jest"
+    "test": "jest",
+    "version": "cd scripts && ts-node npm-version.ts"
   },
   "jest": {
     "moduleFileExtensions": [

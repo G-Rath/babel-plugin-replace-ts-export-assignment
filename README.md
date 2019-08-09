@@ -51,6 +51,9 @@ All documentable changes should be, being placed under the appropriate header in
 
 Note that the `CHANGELOG` is *not* fixed - it's perfectly reasonable to edit it after the fact, for whatever reason.
 
+The version headers of the `CHANGELOG` are automated by an `npm-version` script, located in the `scripts` folder,
+When run, the script will insert a new version header below the `[Unreleased]` header.
+
 The version header is enclosed in a link, linking to the comparing page for the repo
 (to allow users to easily bring up a full git comparision between the new & previous versions of the package),
  and has the date of the release at the end.
@@ -64,3 +67,6 @@ Tags should match the release versions, with a prefixing `v`
 Both publishing & versioning should be done using `npm`, which'll also handle tags.
 
 To publish a new version of this package, use `npm publish`.
+
+There is an `npm-version` script located in the `scripts` folder of the repo,
+that handles keeping the `CHANGELOG` headers in sync with new package versions.
