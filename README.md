@@ -48,3 +48,13 @@ Note that the `CHANGELOG` is *not* fixed - it's perfectly reasonable to edit it 
 The version header is enclosed in a link, linking to the comparing page for the repo
 (to allow users to easily bring up a full git comparision between the new & previous versions of the package),
  and has the date of the release at the end.
+
+#### Tagging, Versioning, & Publishing
+
+We use [SemVer](http://semver.org/) for versioning.
+
+Tags should match the release versions, with a prefixing `v`
+
+Both publishing & versioning should be done using `npm`, which'll also handle tags.
+
+To publish a new version of this package, use `npm publish`.
