@@ -1,7 +1,7 @@
 {
   "name": "babel-plugin-replace-ts-export-assignment",
   "version": "0.0.0",
-  "description": "This does magical things.",
+  "description": "Allows export assignment syntax to be used when compiling TypeScript with babel",
   "keywords": [
     "Babel",
     "TypeScript"
