@@ -21,8 +21,6 @@
     "noEmitOnError": true,
     "incremental": true,
     "pretty": true,
-    "sourceMap": true,
-    "removeComments": true,
     "esModuleInterop": true,
     "newLine": "LF",
     "plugins": [ ],
