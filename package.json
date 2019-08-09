@@ -16,7 +16,10 @@
   },
   "license": "ISC",
   "author": "Gareth Jones",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "directories": {
+    "lib": "lib",
     "test": "test"
   },
   "scripts": {
