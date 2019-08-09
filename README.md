@@ -36,3 +36,15 @@ To compile the project using `TypeScript`, run:
 ```
 npm run build
 ```
+
+#### Changelog
+
+This package uses a `CHANGELOG.md` to track, note, and describe changes to its surface.
+
+All documentable changes should be, being placed under the appropriate header in the `CHANGELOG`.
+
+Note that the `CHANGELOG` is *not* fixed - it's perfectly reasonable to edit it after the fact, for whatever reason.
+
+The version header is enclosed in a link, linking to the comparing page for the repo
+(to allow users to easily bring up a full git comparision between the new & previous versions of the package),
+ and has the date of the release at the end.
