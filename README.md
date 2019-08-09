@@ -5,6 +5,12 @@ when compiling TypeScript with `@babel/preset-typescript`.
 
 This works by simply replacing `export =` with `module.exports`, to keep CJS semantics.
 
+## Contributing
+
+The most important thing when contributing is to make sure to add information about changes to the `CHANGELOG.md`,
+ideally before publishing a new version. If you're not confident doing this, just ensure you provide primary maintainers
+as much information as possible, particular about any special rules or gotchas that are a result of your change.
+
 #### Linting
 
 To run `eslint` on the project, run:
