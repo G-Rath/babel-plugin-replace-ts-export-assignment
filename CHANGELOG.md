@@ -6,6 +6,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+ * Make `@babel/` dependencies `devDependencies`
+
 ## [0.0.1] - 2019-08-09
 
 Initial release.
