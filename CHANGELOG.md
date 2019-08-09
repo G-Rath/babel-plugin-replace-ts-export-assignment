@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.0.1] - 2019-08-09
+
 Initial release.
 
-[Unreleased]: https://github.com/G-Rath/babel-plugin-replace-ts-export-assignment/compare/fdf7c5...HEAD
+[Unreleased]: https://github.com/G-Rath/babel-plugin-replace-ts-export-assignment/compare/v0.0.1...HEAD
+
+[0.0.1]: https://github.com/G-Rath/babel-plugin-replace-ts-export-assignment/compare/fdf7c5...v0.0.1
