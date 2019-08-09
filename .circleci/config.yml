@@ -33,7 +33,7 @@ jobs:
           command: npm run check
       - run:
           name: LintCheck
-          command: npm run lint -- --format junit -o reports/eslint/report.xml
+          command: npm run lint -- --format=junit -o=reports/eslint/report.xml
       - run:
           name: TestCheck
           command: npm run test -- --ci --runInBand --reporters=default --reporters=jest-junit --collectCoverage --verbose
